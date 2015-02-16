@@ -10,10 +10,9 @@ function LList() {
 
 function display() {
  var currNode = this.head;
- while (!(currNode.next === null) &&
- !(currNode.next.element == "head")) {
- print(currNode.next.element);
- currNode = currNode.next;
- }
+ while (!(currNode.next === null) && !(currNode.next.element == "head")) {
+   print(currNode.next.element);
+   currNode = currNode.next;
+   }
 }
 
